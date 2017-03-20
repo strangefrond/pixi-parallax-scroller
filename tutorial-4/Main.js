@@ -32,6 +32,7 @@ Main.prototype.loadSpriteSheet = function() {
 	loader.add("wall", "resources/wall.json");
 	loader.add("bg-mid", "resources/bg-mid.png");
 	loader.add("bg-far", "resources/bg-far.png");
+	loader.add("skateboarder","resources/skateboarder.png");
 	loader.once("complete", this.spriteSheetLoaded.bind(this));
 	loader.load();
 };
